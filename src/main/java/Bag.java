@@ -103,6 +103,7 @@ public abstract class Bag {
         }
         String toPop = contents[numberOfContents - 1];
         contents[numberOfContents - 1] = null;
+        numberOfContents--;
         return toPop;
     }
 
